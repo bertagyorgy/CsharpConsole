@@ -1,2 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System.Threading.Tasks.Dataflow;
+
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        string Szoveg = "bab";
+        Console.WriteLine("Hello, World!");
+    }
+}
